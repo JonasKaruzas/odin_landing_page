@@ -1,0 +1,96 @@
+body {
+margin: 0;
+min-height: 100vh;
+}
+
+header,
+footer,
+.top {
+    background-color: #1F2937;
+}
+
+.header-left {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+li {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style: none;
+}
+
+.top-left .text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top-left .bold {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.mid-images {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.mid-images .card {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+
+.mid-reviews {
+    background-color: #E5E7EB;
+}
+
+.mid-reviews .author {
+    font-size: 25px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.mid-reviews .text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.mid-signup {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border:none;
+	padding:6px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1a3258;
+
+}
+
+.mid-signup button {
+    border:1px solid #F9FAF8;
+
+}
+
+Button:hover {
+	background-color:#2758a7;
+}
+
+Button:active {
+	position:relative;
+	top:1px;
+}
+
+footer {
+    color: #F9FAF8;
+}
